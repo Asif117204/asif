@@ -139,7 +139,7 @@ class CNN(nn.Module):
 ## 5️⃣ Training Configuration
 
 * **Loss Function:** CrossEntropyLoss
-* **Optimizer:** Adam
+* **Optimizer:** Asif
 * **Batch Size:** 64
 * **Epochs:** 10
 * **Device:** GPU (CUDA) if available
