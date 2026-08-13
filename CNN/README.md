@@ -16,15 +16,18 @@ The goal of this project is not only to achieve high accuracy but also to examin
 ---
 
 ## 2️⃣ Datasets Used
-2.1 Kaggle Rock–Paper–Scissors Dataset
-Source: Kaggle
-Link: https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors
-Classes: Rock, Paper, Scissors
-Image Type: RGB
-Characteristics:
-Clean background
-Centered hand gestures
-Consistent lighting
+
+### 2.1 Kaggle Rock–Paper–Scissors Dataset
+
+- **Source:** Kaggle
+- **Link:** https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors
+- **Classes:** Rock, Paper, Scissors
+- **Image Type:** RGB
+- **Characteristics:**
+  - Clean background
+  - Centered hand gestures
+  - Consistent lighting
+
 This dataset provides a controlled environment suitable for supervised CNN training.
 
 ---
@@ -140,10 +143,9 @@ model = CNN(num_classes=3).to(device)
 
 <img width="1324" height="575" alt="Image" src="https://github.com/user-attachments/assets/342a1faa-25d1-423e-99be-96b3975829ef" />
 
-Training accuracy reaches ~100%
-Validation accuracy stabilizes around 98–99%
-Indicates strong in-distribution learning
-
+- Training accuracy reaches approximately **100%**
+- Validation accuracy stabilizes around **98–99%**
+- Indicates strong in-distribution learning
 
 ---
 
