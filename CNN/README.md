@@ -148,7 +148,7 @@ model = CNN(num_classes=3).to(device)
 
 ### 6.1 Training & Validation Curves
 
-![Training and Validation Curves](assets/training_validation_curves.png)
+<img width="1324" height="575" alt="Image" src="https://github.com/user-attachments/assets/342a1faa-25d1-423e-99be-96b3975829ef" />
 
 The notebook records the following validation/training accuracy progression:
 
