@@ -170,8 +170,7 @@ The best recorded validation accuracy is approximately **98.73%**, while the hig
 ---
 
 ### 6.2 Confusion Matrix (Validation Set)
-
-![Confusion Matrix](assets/confusion_matrix.png)
+<img width="741" height="570" alt="Image" src="https://github.com/user-attachments/assets/f7ec6755-c545-44f7-a29f-c50ce12f1831" />
 
 The confusion matrix shows the classification behavior of the CNN across the three classes:
 
