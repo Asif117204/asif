@@ -200,7 +200,7 @@ The notebook uses the model's softmax probabilities to calculate the prediction 
 
 ### 6.4 Predictions on Real Smartphone Images
 
-![Phone Image Predictions](assets/phone_predictions.png)
+<img width="1259" height="633" alt="Image" src="https://github.com/user-attachments/assets/e1655fa1-f40b-481c-bbda-0e5ba913da1a" />
 
 The trained model is also tested on the custom smartphone images.
 
