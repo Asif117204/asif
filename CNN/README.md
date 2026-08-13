@@ -183,7 +183,7 @@ The confusion matrix shows the classification behavior of the CNN across the thr
 
 ### 6.3 Predictions on Standard Dataset Samples
 
-![Standard Dataset Predictions](assets/standard_dataset_predictions.png)
+<img width="1297" height="710" alt="Image" src="https://github.com/user-attachments/assets/b7484fb9-7fc8-4d44-8aa6-03f3bc35e600" />
 
 The visualization contains **10 randomly selected samples from the training dataset**.
 
