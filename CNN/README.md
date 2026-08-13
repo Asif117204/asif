@@ -16,26 +16,16 @@ The goal of this project is not only to achieve high accuracy but also to examin
 ---
 
 ## 2️⃣ Datasets Used
-
-### 2.1 Training Datasets
-
-The project loads two image-folder datasets:
-
-- `train_dataset1`
-- `train_dataset2`
-
-The two datasets are combined using `ConcatDataset`.
-
-- **Classes:** Paper, Rock, Scissors
-- **Total images:** 4,708
-- **Training split:** 3,766 images (80%)
-- **Validation split:** 942 images (20%)
-
-The classes detected by the notebook are:
-
-```text
-['paper', 'rock', 'scissors']
-```
+2.1 Kaggle Rock–Paper–Scissors Dataset
+Source: Kaggle
+Link: https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors
+Classes: Rock, Paper, Scissors
+Image Type: RGB
+Characteristics:
+Clean background
+Centered hand gestures
+Consistent lighting
+This dataset provides a controlled environment suitable for supervised CNN training.
 
 ---
 
@@ -150,22 +140,10 @@ model = CNN(num_classes=3).to(device)
 
 <img width="1324" height="575" alt="Image" src="https://github.com/user-attachments/assets/342a1faa-25d1-423e-99be-96b3975829ef" />
 
-The notebook records the following validation/training accuracy progression:
+Training accuracy reaches ~100%
+Validation accuracy stabilizes around 98–99%
+Indicates strong in-distribution learning
 
-| Epoch | Training Accuracy | Validation Accuracy |
-|------:|------------------:|--------------------:|
-| 1 | 69.41% | 94.16% |
-| 2 | 94.29% | 96.82% |
-| 3 | 96.95% | 97.56% |
-| 4 | 98.17% | 96.92% |
-| 5 | 98.65% | 98.51% |
-| 6 | 99.42% | 98.62% |
-| 7 | 99.68% | **98.73%** |
-| 8 | 99.55% | 98.20% |
-| 9 | **99.79%** | 98.51% |
-| 10 | 99.42% | 98.30% |
-
-The best recorded validation accuracy is approximately **98.73%**, while the highest training accuracy is approximately **99.79%**.
 
 ---
 
